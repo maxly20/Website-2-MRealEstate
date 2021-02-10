@@ -572,3 +572,9 @@ SECTION 5 - FOOTER
 .footer-links li a:hover {
   color: black;
 }
+
+/* MEDIA QUERY  */
+
+@media screen and (max-width: 788px) {
+  
+}
