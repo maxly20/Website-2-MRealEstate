@@ -8,9 +8,9 @@
 body {
   background-color: whitesmoke;
 }
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 ::placeholder {
   color: black;
   font-size: 1rem;
@@ -576,5 +576,5 @@ SECTION 5 - FOOTER
 /* MEDIA QUERY  */
 
 @media screen and (max-width: 788px) {
-  
+
 }
