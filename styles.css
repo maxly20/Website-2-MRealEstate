@@ -576,5 +576,15 @@ SECTION 5 - FOOTER
 /* MEDIA QUERY  */
 
 @media screen and (max-width: 788px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
+@media screen and (max-width: 500px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+  }
 }
