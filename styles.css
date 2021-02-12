@@ -56,6 +56,73 @@ SECTION 0 - LANDING PAGE
 .nav-links a:hover {
   color: rgb(206, 204, 204);
 }
+/* BURGER  */
+.burger {
+  display: none;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 900px) {
+ 
+  .nav-links {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    top: 0;
+    background-color: #091B1D;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 1;
+    padding: 8rem 0;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .nav-links a {
+    font-size: 1.6rem;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* END BURGER  */
+
 .content {
   position: absolute;
   top: 50%;
@@ -580,11 +647,8 @@ SECTION 5 - FOOTER
     display: flex;
     flex-direction: column;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .search {
-    display: flex;
-    flex-direction: column;
+  .search-field {
+    width: 25rem;
+    margin: 1rem 0;
   }
 }
