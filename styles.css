@@ -661,7 +661,7 @@ SECTION 5 - FOOTER
     height: 140px;
     margin: 0.4rem;
   }
-  .section-2-5 { 
+  .section-2-5 {
     height: 110vh;
     flex-direction: column;
   }
@@ -673,5 +673,16 @@ SECTION 5 - FOOTER
     justify-content: center;
     align-items: center;
   }
-
+  .section-3 {
+    height: 200vh;
+  }
+  .testimonial-container {
+    flex-direction: column;
+  }
+  .testimonials-text {
+    text-align: center;
+  }
+  .testimonial-card {
+    margin-top: 1rem;
+  }
 }
