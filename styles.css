@@ -414,7 +414,7 @@ SECTION 2.5 - APP
 =====================*/
 .section-2-5 {
   border-top: 1px solid rgb(222, 219, 219);
-  height: 70vh;
+  height: 100vh;
   padding-top: 1rem;
   display: flex;
   align-items: center;
@@ -651,9 +651,27 @@ SECTION 5 - FOOTER
     margin: 1rem 0;
   }
   .section-1 {
-    height: 150vh;
+    height: 200vh;
   }
   .mySlides {
     flex-direction: column;
   }
+  .row-content {
+    width: 240px;
+    height: 140px;
+    margin: 0.4rem;
+  }
+  .section-2-5 { 
+    height: 110vh;
+    flex-direction: column;
+  }
+  .app_phone {
+    width: 80%;
+  }
+  .app__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
