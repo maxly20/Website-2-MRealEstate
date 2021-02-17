@@ -249,10 +249,7 @@ SECTION 1 - SAMPLE HOUSE
   justify-content: space-around;
   align-items: center;
 }
-/* ============= */
-/* .mySlides {
-  display: none;
-} */
+
 .prev {
   cursor: pointer;
   position: absolute;
@@ -661,8 +658,11 @@ SECTION 5 - FOOTER
     height: 140px;
     margin: 0.4rem;
   }
+  .section-2 {
+    height: 60vh;
+  }
   .section-2-5 {
-    height: 110vh;
+    height: 80vh;
     flex-direction: column;
   }
   .app_phone {
