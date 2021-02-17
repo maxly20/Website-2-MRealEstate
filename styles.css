@@ -685,4 +685,17 @@ SECTION 5 - FOOTER
   .testimonial-card {
     margin-top: 1rem;
   }
+  .why-us {
+    width: 80%;
+  }
+  .section-4 {
+    height: 180vh;
+  }
+  .whyus-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 1000px;
+  }
 }
