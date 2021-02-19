@@ -698,4 +698,7 @@ SECTION 5 - FOOTER
     width: 90%;
     height: 1000px;
   }
+  .articles-container {
+    flex-direction: column;
+  }
 }
