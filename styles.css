@@ -684,7 +684,7 @@ SECTION 5 - FOOTER
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
-    height: 1000px;
+    min-height: 1000px;
   }
   .articles-container {
     flex-direction: column;
