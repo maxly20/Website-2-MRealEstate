@@ -560,7 +560,7 @@ SECTION 4 - ARTICLES
   justify-content: space-evenly;
 }
 .articles-content > img {
-  height: 200px;
+  min-height: 200px;
   width: 100%;
 }
 .articles-container {
@@ -569,7 +569,7 @@ SECTION 4 - ARTICLES
   align-items: center;
 }
 .articles-content {
-  height: 350px;
+  min-height: 350px;
   width: 300px;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 2rem 2rem;
@@ -636,21 +636,21 @@ SECTION 5 - FOOTER
     margin: 1rem 0;
   }
   .section-1 {
-    height: 200vh;
+    min-height: 200vh;
   }
   .mySlides {
     flex-direction: column;
   }
   .row-content {
     width: 240px;
-    height: 140px;
+    min-height: 140px;
     margin: 0.4rem;
   }
   .section-2 {
     height: 60vh;
   }
   .section-2-5 {
-    height: 80vh;
+    min-height: 80vh;
     flex-direction: column;
   }
   .app_phone {
@@ -662,7 +662,7 @@ SECTION 5 - FOOTER
     align-items: center;
   }
   .section-3 {
-    height: 230vh;
+    min-height: 230vh;
   }
   .testimonial-container {
     flex-direction: column;
@@ -677,7 +677,7 @@ SECTION 5 - FOOTER
     width: 80%;
   }
   .section-4 {
-    height: 180vh;
+    min-height: 180vh;
   }
   .whyus-container {
     flex-direction: column;
