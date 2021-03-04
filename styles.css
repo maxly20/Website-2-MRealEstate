@@ -302,7 +302,7 @@ SECTION 1 - SAMPLE HOUSE
   background-color: #717171;
 }
 .fade {
-  animation : fade 1.5s ease-in
+  animation: fade 1.5s ease-in;
 }
 
 @keyframes fade {
@@ -332,7 +332,6 @@ SECTION 2 - SERVICES
   margin-bottom: 1rem;
 }
 .service-content {
-  /* height: 70%; */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -641,6 +640,9 @@ SECTION 5 - FOOTER
   .mySlides {
     flex-direction: column;
   }
+  .card {
+    margin-top: 2rem;
+  }
   .row-content {
     width: 240px;
     min-height: 140px;
@@ -648,6 +650,11 @@ SECTION 5 - FOOTER
   }
   .section-2 {
     min-height: 60vh;
+    padding: 4rem 2rem;
+  }
+  .row-content {
+    min-width: 200px;
+    min-height: 130px;
   }
   .section-2-5 {
     min-height: 80vh;
