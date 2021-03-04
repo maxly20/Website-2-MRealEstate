@@ -696,4 +696,10 @@ SECTION 5 - FOOTER
   .articles-container {
     flex-direction: column;
   }
+  .articles > h1 {
+    margin-bottom: 2rem;
+  }
+  .articles-content {
+    margin-bottom: 1.5rem;
+  }
 }
