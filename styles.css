@@ -647,7 +647,7 @@ SECTION 5 - FOOTER
     margin: 0.4rem;
   }
   .section-2 {
-    height: 60vh;
+    min-height: 60vh;
   }
   .section-2-5 {
     min-height: 80vh;
