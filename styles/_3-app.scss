@@ -1,0 +1,35 @@
+.section-2-5 {
+  border-top: 1px solid rgb(222, 219, 219);
+  min-height: 100vh;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.app__left__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.app_apple {
+  height: 40px;
+  cursor: pointer;
+}
+.app_google {
+  height: 60px;
+  cursor: pointer;
+}
+.app__left__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app__left__top > h1 {
+  margin-bottom: 2rem;
+}
+.app__left__top > p {
+  width: 60%;
+  text-align: center;
+}
