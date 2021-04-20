@@ -1,0 +1,102 @@
+.section-4 {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 1px solid rgb(222, 219, 219);
+  padding: 2rem 0;
+}
+.why-us {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.whyus-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+}
+.whyus-content {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.whyus-content:hover {
+  transform: scale(1.1);
+}
+.whyus-content > p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: white;
+  text-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+.whyus-1 {
+  background: url(./img/whyus1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.whyus-2 {
+  background: url(./img/whyus2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.whyus-3 {
+  background: url(./img/whyus3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.why-us > h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.why-us > p {
+  text-align: center;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.articles-content > img {
+  min-height: 200px;
+  width: 100%;
+}
+.articles-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.articles-content {
+  min-height: 350px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem 2rem;
+  margin: 0 1rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.articles-content:hover {
+  transform: scale(1.1);
+}
+.articles-content > p {
+  text-align: center;
+}
